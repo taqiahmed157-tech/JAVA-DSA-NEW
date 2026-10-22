@@ -1,3 +1,4 @@
+// Q. Calculate power program.
 package com.taqi;
 import java.util.Scanner;
 public class Power
