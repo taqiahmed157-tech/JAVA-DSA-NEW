@@ -14,6 +14,8 @@ public class Vowel
         {
             System.out.println(ch+" is vowel");
         }
+        else
+            System.out.print(ch+" is consonant");
 
     }
 }
