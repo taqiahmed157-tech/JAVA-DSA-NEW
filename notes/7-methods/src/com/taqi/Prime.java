@@ -7,7 +7,14 @@ public class Prime
         Scanner in = new Scanner(System.in);
         System.out.print("Enter a number : ");
         int n=in.nextInt();
-        System.out.println(isPrime(n));
+        if(isPrime(n))
+        {
+            System.out.println(n+" is prime");
+        }
+        else
+        {
+            System.out.println(n+" is not prime");
+        }
     }
     static boolean isPrime(int n)
     {
@@ -23,7 +30,6 @@ public class Prime
                 i++;
             }
             return true;
-
         }
     }
 
