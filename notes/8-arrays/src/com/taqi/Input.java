@@ -1,4 +1,5 @@
 package com.taqi;
+import java.util.Arrays;
 import java.util.Scanner;
 public class Input
 {
@@ -26,6 +27,9 @@ public class Input
         for(int num : arr)//For every element in array, print the element
             System.out.print(num+" ");//Here num represents element of array
         //System.out.println(arr[5]);//Array out of bound error
+        // Printing using Arrays.toString() function
+        System.out.print("\nUsing Arrays.toString() : ");
+        System.out.println(Arrays.toString(arr));
 
     }
 }
