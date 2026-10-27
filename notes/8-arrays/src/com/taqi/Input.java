@@ -5,6 +5,7 @@ public class Input
 {
     public static void main(String[] args)
     {
+        // Array of primitives
         Scanner in = new Scanner(System.in);
         int[] arr = new int[5];
         //Basic input:
@@ -30,6 +31,18 @@ public class Input
         // Printing using Arrays.toString() function
         System.out.print("\nUsing Arrays.toString() : ");
         System.out.println(Arrays.toString(arr));
+
+
+        // Array of Objects
+        String[] str = new String[5];
+        System.out.print("Enter collection of strings : ");
+        for (int i=0;i<str.length;i++)
+        {
+            str[i]=in.next();
+        }
+        System.out.print("\nString printing : ");
+        System.out.println(Arrays.toString(str));
+
 
     }
 }
